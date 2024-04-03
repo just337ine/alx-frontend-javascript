@@ -7,5 +7,5 @@ export default function handleProfileSingup() {
         `${resolve[0].body} ${resolve[1].firstName} ${resolve[1].lastName}`,
       );
     })
-    .catch(() => console.log('Signup system offlin'));
+    .catch(() => console.log('Signup system offline'));
 }
